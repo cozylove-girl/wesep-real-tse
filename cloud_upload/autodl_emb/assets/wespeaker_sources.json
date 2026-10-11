@@ -1,0 +1,24 @@
+{
+  "repository": "wenet-e2e/wespeaker",
+  "revision": "8f53b6485d9f88a207bd17e7f8dba899495ec794",
+  "files": [
+    {
+      "source": "wespeaker/models/ecapa_tdnn.py",
+      "path": "wespeaker_minimal/wespeaker/models/ecapa_tdnn.py",
+      "sha256": "a671c9944b77752eff3feb274f885ea1bd257ff745d5634093e42548bd194ecb",
+      "bytes": 9429
+    },
+    {
+      "source": "wespeaker/models/pooling_layers.py",
+      "path": "wespeaker_minimal/wespeaker/models/pooling_layers.py",
+      "sha256": "745fa51f134430d6dfed3f8409cfe0d82a0af4846d8ea057630cf9a47e8f7fcc",
+      "bytes": 14884
+    },
+    {
+      "source": "LICENSE",
+      "path": "wespeaker_minimal/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    }
+  ]
+}

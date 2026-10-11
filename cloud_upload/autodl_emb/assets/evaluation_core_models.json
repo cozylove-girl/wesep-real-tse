@@ -1,0 +1,89 @@
+{
+  "checked_date": "2026-10-11",
+  "models": [
+    {
+      "key": "zipformer_en",
+      "repository": "k2-fsa/sherpa-onnx-zipformer-gigaspeech-2023-12-12",
+      "revision": "859931db4c4c7bede01b959389dc8a4971a39ec5",
+      "destination": "zipformer/pretrained_models/sherpa-onnx-zipformer-gigaspeech-2023-12-12",
+      "files": [
+        {
+          "path": "encoder-epoch-30-avg-1.onnx",
+          "bytes": 263122218,
+          "sha256": "b400794a977a9bcf5a6a6e1a8287528bd363141dddc8aba762eb813a33907b9e"
+        },
+        {
+          "path": "decoder-epoch-30-avg-1.onnx",
+          "bytes": 2093080,
+          "sha256": "a526c2f03d2d267a65f49703347751d7815a3dbb86d5134a3006373c2bfda3b5"
+        },
+        {
+          "path": "joiner-epoch-30-avg-1.onnx",
+          "bytes": 1026462,
+          "sha256": "588a5c57015ab02a568b822d75887802b9593f7dbbccd56b69f15f2704518213"
+        },
+        {
+          "path": "tokens.txt",
+          "bytes": 5020,
+          "sha256": "0ef7d736bf4de3ef947292e4b119ef13f6808cd5f3aec225a843a7135ac1c2ce"
+        },
+        {
+          "path": "bpe.model",
+          "bytes": 244837,
+          "sha256": "c8a2a0129c4ab8e463164c142f82d25649661b122c8cd0b7aab5c9e80b90ad24"
+        }
+      ]
+    },
+    {
+      "key": "zipformer_zh",
+      "repository": "zrjin/sherpa-onnx-zipformer-multi-zh-hans-2023-9-2",
+      "revision": "49ba8f846b47d95596d4dc9751353a51b375ed78",
+      "destination": "zipformer/pretrained_models/sherpa-onnx-zipformer-multi-zh-hans-2023-9-2",
+      "files": [
+        {
+          "path": "encoder-epoch-20-avg-1.onnx",
+          "bytes": 260000054,
+          "sha256": "d677bf669acc14de954cd8b02bb09e004c3ef27dc7aae2e4e18c029a9771a450"
+        },
+        {
+          "path": "decoder-epoch-20-avg-1.onnx",
+          "bytes": 5165142,
+          "sha256": "f6bbd5fc9cfa2c69988fafb63e5ccd50756134993eb6c23d89887d81e7f7896c"
+        },
+        {
+          "path": "joiner-epoch-20-avg-1.onnx",
+          "bytes": 4104454,
+          "sha256": "1a0840611336bf90d502b12d21766340fb830895a6304ec5d20d5c83dbd2c8a0"
+        },
+        {
+          "path": "tokens.txt",
+          "bytes": 18610,
+          "sha256": "67352babdf908352d3ce19c4496cb05ca173805616c23b520927117b2c2e2ffa"
+        },
+        {
+          "path": "bpe.model",
+          "bytes": 263956,
+          "sha256": "867a7355801cb43939962ad757ba1cb7941b6171b5a6902772483b4e3a623377"
+        }
+      ]
+    },
+    {
+      "key": "firered_vad",
+      "repository": "FireRedTeam/FireRedVAD",
+      "revision": "7990aaccc6b7aec1e527743bd30201f2c4a03b8c",
+      "destination": "FireRedASR2S/pretrained_models/FireRedVAD",
+      "files": [
+        {
+          "path": "VAD/model.pth.tar",
+          "bytes": 2368049,
+          "sha256": "63f4fb1b00a6b8607c118dd48efc18d5e40d67d99b7bf9aa7a8d61540cf23d71"
+        },
+        {
+          "path": "VAD/cmvn.ark",
+          "bytes": 1311,
+          "sha256": "c87f6f13edf0f0ec7535ddfc9cc3387d9268cb234b70182d566c5e2edf3ca473"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "all_python_ast": "passed",
+  "model_executed_locally": false,
+  "training_executed_locally": false,
+  "cloud_gpu_executed": false,
+  "notebook_schema": "passed",
+  "notebook_cells": 22,
+  "runtime_patches_ast": "passed",
+  "data_registration": {
+    "train-100": {
+      "mixture_records": 13900,
+      "target_examples": 27800,
+      "speakers": 251,
+      "independent_registration_verified": true
+    },
+    "dev": {
+      "mixture_records": 3000,
+      "target_examples": 6000,
+      "speakers": 40,
+      "independent_registration_verified": true
+    },
+    "test": {
+      "mixture_records": 3000,
+      "target_examples": 6000,
+      "speakers": 40,
+      "independent_registration_verified": true
+    }
+  },
+  "no_same_utterance_enrollment": true,
+  "upstream_source_preserved": true,
+  "time_estimate_arithmetic": "passed",
+  "illustrative_seconds_per_step_not_measurements": {
+    "0.1": 3.8583333333333334,
+    "0.25": 9.645833333333334,
+    "0.5": 19.291666666666668,
+    "1": 38.583333333333336,
+    "2": 77.16666666666667
+  },
+  "timer_counts_last_step_when_executor_breaks": true,
+  "not_verified": [
+    "cloud dependency installation",
+    "CUDA model forward/backward",
+    "150-epoch training",
+    "official evaluation"
+  ],
+  "source_sha256": {
+    "cloud_entry.py": "e7003e89f8f6aaa25567d4e2075345722d456f044ad4270e7498b9e3a5ddfc5e",
+    "pipeline_worker.py": "145838d579009e1ee330fabb89e144408d56f9cefde4c459e2a5dc5eacd42b84",
+    "data_prepare.py": "217d6e85f5bb755a0b621d4eed4db6ca82b473bd99a1cefacaacd87ea03f6742",
+    "evaluation.py": "bc432afd735ae9ce4f5b0d4b1d0df57daff51fc2cfc8b3ff167b11963d08f890",
+    "EMB_AutoDL_Full_Pipeline.ipynb": "5351ca91ea899d46bb1ead87dad31a16eb898d69c93e04d4fbb3fa5bfbc37742",
+    "cloud_common.py": "0fb8bd80eab160c7ea79f9280bf4e17edeaa1f3b034634ff2afb02a60ecba8c7",
+    "download_sources.py": "a7e05c6ac16539b89c63df61f89213e162b29d8485e117edc09221287f3a0f84",
+    "prepare_librimix.py": "188bedbe1bca76db21c29595faad79f5e7ed0e10168e96d85e260e12b6b6a01f",
+    "requirements-eval.txt": "92d40acdb02a9e77df40e7ed3961bfdbc8be08c0600b76f77642b2089749db0d",
+    "gpu_monitor.py": "a3737614c38e092bf11e33dfe28424a41096e860fb27187b7e06c549d2ee97cb",
+    "evaluation_model_check.py": "7fb84abdfba1d57f200c5042026be75fcfdd197f5d877f4f02cc7d560918134b",
+    "evaluation_core_models.json": "be005a1f6d491b88ae959fb7895d642fc4615fbfcc486db441642858077f4bdd"
+  },
+  "status": "static_and_data_checks_passed",
+  "environment_reuse_update": {
+    "python_ast": "passed",
+    "unexecuted_notebook_ast": "passed",
+    "mocked_image_missing_audio_installs_only_audio": "passed",
+    "gpu_version_constraints": "passed",
+    "matching_image_rerun_installs_nothing": "passed",
+    "worker_uses_image_python": "passed",
+    "unsupported_image_no_automatic_torch_install": "passed",
+    "model_executed_locally": false,
+    "cloud_installation_executed": false,
+    "unicode_local_workspace_cloud_path_guard_stubbed": true
+  },
+  "compact_progress_update": {
+    "python_ast": "passed",
+    "notebook_schema": "passed",
+    "output_bounded_full_log_preserved": "passed",
+    "error_context_visible": "passed",
+    "display_updates_same_handle": "passed",
+    "model_executed_locally": false,
+    "cloud_execution": false
+  },
+  "download_source_update": {
+    "python_ast": "passed",
+    "notebook_schema": "passed",
+    "mock_fastest_source_selected": "passed",
+    "mock_all_slow_stops": "passed",
+    "partial_bytes_resume_and_official_md5_contract": "passed",
+    "duplicate_progress_collapsed": "passed",
+    "hf_original_archive_metadata_verified": true,
+    "hf_revision": "2dd4206a992cd7a475e1ce2e82b708b014319152",
+    "cloud_speed_measured": false,
+    "model_executed_locally": false
+  },
+  "academic_proxy_update": {
+    "cold_connection_excluded_from_transfer_speed": "passed",
+    "prepare_enables_requested_proxy": "passed",
+    "default_acceleration_enabled": "passed",
+    "python_ast": "passed",
+    "notebook_schema": "passed",
+    "actual_cloud_proxy_speed_measured": false,
+    "model_executed_locally": false
+  },
+  "verified_fragment_cleanup_update": {
+    "python_ast": "passed",
+    "duplicate_fragments_removed_after_verified_archive": "passed",
+    "archive_and_unrelated_files_preserved": "passed",
+    "wrong_size_archive_cleanup_rejected": "passed",
+    "cloud_cleanup_executed": false,
+    "model_executed_locally": false
+  },
+  "resume_and_batch_update_2026_10_11": {
+    "zero_speed_threshold_avoids_049_false_abort": "passed",
+    "failures_reported_before_longest_download": "passed",
+    "resume_requests_only_missing_test": "passed",
+    "notebook_batch_helper_updates_config_before_benchmark": "passed",
+    "formal_checkpoint_batch_change_rejected": "passed",
+    "notebook_schema": "passed",
+    "notebook_cells": 24,
+    "model_executed_locally": false,
+    "cloud_gpu_executed": false
+  },
+  "mirror_transport_update": {
+    "mirror_bypasses_proxy_through_redirects": "passed",
+    "official_source_preserves_proxy": "passed",
+    "tls_verification_preserved": "passed",
+    "hub_036_backend_factory": "passed",
+    "cloud_weight_download_executed": false,
+    "model_executed_locally": false
+  },
+  "evaluation_dependency_update_2026_10_11": {
+    "onnxruntime_gpu": "1.20.2",
+    "official_pypi_cp312_linux_wheel_confirmed": true,
+    "evaluation_direct_pins_available": 12,
+    "cloud_installation_executed": false,
+    "model_executed_locally": false
+  },
+  "executable_mode_controls_update": {
+    "notebook_schema": "passed",
+    "python_ast": "passed",
+    "benchmark_runs_only_prepare_and_measure": "passed",
+    "batch_change_rebuilds_config_before_measure": "passed",
+    "train_reuses_matching_measurement_and_runs_full_stages": "passed",
+    "resume_restores_original_batch_and_stages": "passed",
+    "formal_checkpoint_retuning_rejected": "passed",
+    "actual_model_executed_locally": false,
+    "cloud_gpu_execution": false,
+    "notebook_cells": 22
+  },
+  "lazy_inference_api_and_memory_update": {
+    "runtime_root_import_without_torch_or_silero": "passed",
+    "both_public_inference_exports_preserved": "passed",
+    "upstream_root_file_unchanged": "passed",
+    "root_worker_error_before_wrapper": "passed",
+    "nvidia_query_command_mocked": "passed",
+    "peak_memory_sampling_and_original_error_preserved": "passed",
+    "notebook_schema": "passed",
+    "python_ast": "passed",
+    "model_executed_locally": false,
+    "actual_gpu_sampled_locally": false,
+    "actual_cloud_training_executed": false
+  },
+  "notebook_vram_controls_integrated": {
+    "snapshot_uses_mocked_nvidia_only": "passed",
+    "benchmark_skips_formal_stages": "passed",
+    "train_and_resume_keep_stage_order": "passed",
+    "resume_restores_original_batch": "passed",
+    "notebook_cells": 28,
+    "model_executed_locally": false,
+    "gpu_executed_locally": false
+  },
+  "evaluation_tls_update_2026_10_11": {
+    "official_model_metadata_and_small_blob_hashes": "verified",
+    "pinned_core_model_files": 12,
+    "bytes": 538413193,
+    "mirror_download_uses_pinned_size_sha256": "mocked_pass",
+    "pre_sh_network_switches_disabled_after_prefetch": "passed",
+    "firered_root_lazy_import_without_torch_transformers": "passed",
+    "upstream_source_unchanged": "passed",
+    "notebook_schema": "passed",
+    "model_executed_locally": false,
+    "actual_cloud_evaluation_model_load": false,
+    "formal_training_requires_passed_model_load_check": "mocked_pass"
+  }
+}

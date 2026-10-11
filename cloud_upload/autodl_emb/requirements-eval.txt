@@ -1,0 +1,16 @@
+# Upstream default Zipformer / FireRedVAD / speaker / DNSMOS evaluation.
+sherpa-onnx==1.12.30
+# wespeakerruntime is installed separately without dependencies: its metadata
+# requires CPU onnxruntime, but we supply the API-compatible GPU distribution.
+modelscope==1.33.0
+# 1.20.1 is no longer served by PyPI; 1.20.2 has Linux cp312 wheels.
+onnxruntime-gpu==1.20.2
+kaldi-native-fbank==1.21.1
+kaldialign==0.9.2
+kaldiio==2.18.0
+opencc==1.1.9
+cn2an==0.5.23
+whisper-normalizer==0.1.12
+meeteval==0.4.2
+fire==0.7.0
+matplotlib==3.9.4
